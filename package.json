@@ -2,13 +2,27 @@
   "name": "testground",
   "version": "0.1.0",
   "description": "The testing ground",
-  "main": "index.js",
   "scripts": {
+    "build": "babel lib --out-dir dist",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "dist"
+  ],
+  "babel": {
+    "plugins": [
+      "transform-es2015-modules-commonjs",
+      "transform-async-to-generator"
+    ]
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "fs-promise": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-plugin-transform-es2015-modules-commonjs": "6.8.0",
+    "babel-plugin-transform-async-to-generator": "6.8.0",
+    "babel-cli": "6.8.0"
   }
 }
