@@ -1,6 +1,7 @@
 {
   "name": "testground",
   "version": "0.1.0",
+  "main": "lib/index.js",
   "description": "The testing ground",
   "scripts": {
     "build": "babel lib --out-dir dist",
