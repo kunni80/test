@@ -1,0 +1,14 @@
+{
+  "name": "testground",
+  "version": "0.1.0",
+  "description": "The testing ground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-promise": "^1.0.0"
+  }
+}
