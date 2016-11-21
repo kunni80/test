@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "description": "The testing ground",
   "scripts": {
-    "build": "babel lib --out-dir dist",
+    "build": "babel lib --out-dir dist && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "files": [
@@ -19,6 +19,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "easyimage": "^2.1.0",
     "fs-promise": "^1.0.0"
   },
   "devDependencies": {
